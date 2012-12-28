@@ -45,7 +45,12 @@ sub import {
  # in your Alt/Foo/Bar/phrase.pm:
  package Alt::Foo::Bar::phrase;
  use base qw(Alt::Base);
- our %ALT = (check => 0);
+ 1;
+
+ # customize options:
+ package Alt::Foo::Bar::phrase;
+ use base qw(Alt::Base);
+ our %ALT = (check => 0, ...);
  1;
 
 

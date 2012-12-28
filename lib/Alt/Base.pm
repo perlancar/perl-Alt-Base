@@ -59,7 +59,7 @@ sub import {
 The Alt::Base class provides common functionalities for an alternate module. For
 more information about the Alt concept, please refer to L<Alt>.
 
-L<Alt::Base> defines an C<import()> routine which checks for options in C<%ALT>.
+Alt::Base defines an C<import()> routine which checks for options in C<%ALT>.
 These options are:
 
 =over
